@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'chiper.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'auth0DB',
-        'USER':'auth0User',
-        'PASSWORD':'Proyecto1',
-        'HOST':'tallerauth0.cxv6f2homhuo.us-east-1.rds.amazonaws.com',
+        'NAME': 'monitoringDB',
+        'USER':'monitoringUser',
+        'PASSWORD':'isis2503',
+        'HOST':'monitoring-db.cxv6f2homhuo.us-east-1.rds.amazonaws.com',
         'PORT':'5432',
     }
 }
